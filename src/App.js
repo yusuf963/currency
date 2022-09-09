@@ -21,8 +21,8 @@ const CountrySelector = () => {
 const App = () => {
   const [info, setInfo] = useState([]);
   const [input, setInput] = useState(0);
-  const [from, setFrom] = useState("usd");
-  const [to, setTo] = useState("eur");
+  const [from, setFrom] = useState("eur");
+  const [to, setTo] = useState("usd");
   const [options, setOptions] = useState([]);
   const [output, setOutput] = useState(0);
 
